@@ -12,7 +12,7 @@ permissions:
     
 jobs:
     deploy:
-      if: ${{github.event.release.target_commitish == 'prouction'}}
+      if: ${{github.event.release.target_commitish == 'production'}}
       runs-on: ubuntu-latest
       steps:
         
